@@ -54,6 +54,7 @@
         let last
 
         var isTouchDevice = 'ontouchstart' in document.documentElement;
+        //检测是否为触屏设备
         
         if (isTouchDevice) {
             canvas.ontouchstart = (e) => {
